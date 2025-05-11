@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Patient Data Analysis</h1>
+    <table>
+        <thead>
+            <th>Component Name</th>
+            <th>Component Value</th>
+            <th>Measured Date Time</th>
+        </thead>
+        {%for eachEntry in data%}
+        <tr>
+            <td>{{eachEntry.componentName}}</td>
+            <td>{{eachEntry.componentValue}}</td>
+            <td>{{eachEntry.date_Time}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Home</a>
+</body>
+</html>
