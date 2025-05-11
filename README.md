@@ -1,4 +1,4 @@
-A basic web application for managing laboratory tests, patient records, and test reports. Built with the Django web framework.
+A web application for managing laboratory tests, patient records, and test reports. Built with the Django web framework.
 
 📦Features
 
